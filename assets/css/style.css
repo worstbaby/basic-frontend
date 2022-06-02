@@ -1,0 +1,60 @@
+body, html {
+    font-family: "Whitney", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.avatar {
+    position: relative;
+    max-width: 100px;
+    border-radius: 100%;
+    color: #fff;
+    transition: 0.3s;
+    padding: 5px 5px;
+}
+.avatar:hover {
+    padding: 0px 0px;
+}
+.imagem {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    transition: 0.3s;
+    background-color: transparent;
+    border-radius: 15px;
+}
+.card:hover {
+    margin-top: -5%;
+}
+.container {
+    padding: 10px 10px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(112, 156, 177);
+}
+.pages {
+	cursor: pointer;
+    position: absolute;
+    margin-top: -580px;
+    margin-right: 1200px;
+	color: #fff;
+    background: none;
+    transition: 0.3s;
+	font-size: 20px;
+	border: 0px solid #fff;
+    padding: 9px 30px;
+    border-radius: 0px;
+}
+.pages:hover {
+    margin-right: 1220px;
+    color: rgb(161, 161, 161);
+}
+
